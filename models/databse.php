@@ -14,6 +14,7 @@ class Database
     protected $error;
 
     protected $allowedColumns;
+    protected $tableName;
 
     public function __construct()
     {
@@ -96,7 +97,7 @@ class Database
     /** Method to fetch all rows:
      * @return mixed
      */
-    public function resultSet()
+    public function multiple()
     {
         $this->execute();
         return $this->stmt->fetchAll(PDO::FETCH_ASSOC);
