@@ -45,10 +45,10 @@
             </li>
         <?php } else { ?>
             <li class="px-2 md:px-4 hidden md:block">
-                <a href="index.php?page=login" class="text-gray-500 font-semibold hover:text-blue-600"> Login </a>
+                <a href="views/login_view.php" class="text-gray-500 font-semibold hover:text-blue-600"> Login </a>
             </li>
             <li class="px-2 md:px-4 hidden md:block">
-                <a href="index.php?page=register" class="text-gray-500 font-semibold hover:text-blue-600">
+                <a href="views/register_view.php" class="text-gray-500 font-semibold hover:text-blue-600">
                     Register </a>
             </li>
 
