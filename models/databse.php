@@ -81,7 +81,7 @@ class Database
                 throw new Exception("Your column should exist in the table columns and consist of alphanumeric characters");
             }
         }
-
+        
         return 1;
     }
 
