@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             // Check the user's role and redirect accordingly
             if ($userRole === "admin") {
-                header("location: ../views/dashboard.php?login=success");
+                header("location: ../dashboard.php?login=success");
             } elseif ($userRole === "auteur") {
                 header("location: ../views/index.php?login=success");
             } else {    
@@ -74,6 +74,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         die("Query failed: " . $e->getMessage());
     }
 } else {
-    header("Location: ../index.php");
+    header("Location: ../views/index.php");
     die();
 }
