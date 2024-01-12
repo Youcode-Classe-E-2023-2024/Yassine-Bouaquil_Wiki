@@ -1,8 +1,7 @@
 
 <?php
-require_once '../includes/config_session.inc.php';
+require_once 'config_session.inc.php';
 
-require_once 'login_view.inc.php';
 
 ?>
 <!DOCTYPE html>
