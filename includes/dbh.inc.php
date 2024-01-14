@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$dbname = 'wiki';
+$dbname = 'wiki1';
 $dbusername = 'root';
 $dbpassword = '';
 
